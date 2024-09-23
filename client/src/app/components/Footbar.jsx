@@ -11,7 +11,7 @@ const Footbar = () => {
 
           <div className='flex flex-col justify-center items-center text-center'>
             <h4 className='font-poppins font-normal text-white text-[20px]'>Contact:</h4>
-            <h4 className='font-poppins font-normal text-white text-[20px] '>antonythomas@tutanota.com</h4>
+            <h4 className='font-poppins font-normal text-white text-[20px] '>antonythomas2046@gmail.com</h4>
           </div>
 
           <div className='flex flex-col justify-center items-center text-center'>

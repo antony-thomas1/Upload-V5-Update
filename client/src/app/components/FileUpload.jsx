@@ -132,19 +132,19 @@ const FileUpload = () => {
           </div>
           <div className='flex-1 justify-center items-center gap-10 w-[300px] h-[500px] p-[5px] mr-[40px] mt-[60px]'>
             <input
-              className='py-[15px] px-[15px] mt-[10px] w-full outline-none border-[1px] border-[#79797e] bg-transparent font-epilogue text-white text-[16px] placeholder:text-[#79797e] rounded-[10px]'
+              className='py-[15px] px-[15px] mt-[10px] w-full outline-none bg-[#dfdfe2] font-epilogue text-gray-800 text-[16px] placeholder:text-[#555557] rounded-[10px]'
               type="text"
               placeholder='File name'
               value={form.name}
               onChange={(e) => handleFormFieldChange('name', e)}
             />
             <input
-              className='py-[15px] px-[15px] mt-[10px] outline-none border-[1px] border-[#79797e] bg-transparent font-epilogue text-white text-[14px] placeholder:text-[#79797e] rounded-[10px]'
+              className='py-[15px] px-[15px] mt-[10px] outline-none bg-[#dfdfe2] font-epilogue text-gray-800 text-[14px] placeholder:text-[#555557] rounded-[10px]'
               type="file"
               onChange={(e) => setFile(e.target.files[0])}
             />
             <div className='justify-center items-center my-[10px] px-[80px]'>
-              <button className='px-[20px] py-[10px] bg-[#2682ec] rounded-[12px] text-white font-bold font-poppins text-[18px]'
+              <button className='px-[30px] py-[10px] hover:bg-[#0b65cc] bg-[#2682ec] rounded-[22px] text-white font-bold font-poppins text-[18px]'
                 onClick={uploadToIpfs}>
                 Upload
               </button>
